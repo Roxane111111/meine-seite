@@ -1,1 +1,89 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Jardin de fleurs</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta name="description" content="Un petit site sur les fleurs, avec un design simple et coloré.">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container">
+			<h1>Jardin de fleurs</h1>
+			<p class="subtitle">Un petit site pour admirer des fleurs</p>
+		</div>
+	</header>
+
+	<main class="container">
+		<section class="hero">
+			<div class="hero-art">
+				<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+					<defs>
+						<radialGradient id="g" cx="50%" cy="30%">
+							<stop offset="0%" stop-color="#fff8f0" />
+							<stop offset="100%" stop-color="#ffe6f0" />
+						</radialGradient>
+					</defs>
+					<rect width="100%" height="100%" fill="url(#g)" rx="12" />
+					<!-- Fleurs stylisées -->
+					<g transform="translate(20,30)">
+						<circle cx="10" cy="10" r="6" fill="#ffb3c6" />
+						<g fill="#ff66a3">
+							<ellipse cx="10" cy="2" rx="3" ry="6" />
+							<ellipse cx="18" cy="10" rx="3" ry="6" transform="rotate(90 18 10)" />
+							<ellipse cx="10" cy="18" rx="3" ry="6" />
+							<ellipse cx="2" cy="10" rx="3" ry="6" transform="rotate(90 2 10)" />
+						</g>
+					</g>
+					<g transform="translate(120,40)">
+						<circle cx="10" cy="10" r="6" fill="#fff08a" />
+						<g fill="#ffd24d">
+							<path d="M10 2 L14 10 L10 18 L6 10 Z"/>
+							<path d="M2 10 L18 10 L10 18 Z"/>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<div class="hero-text">
+				<h2>Bienvenue dans mon jardin</h2>
+				<p>Découvrez une collection simple de fleurs stylisées et colorées — conçues avec HTML et CSS.</p>
+			</div>
+		</section>
+
+		<section class="gallery">
+			<h3>Quelques fleurs</h3>
+			<div class="grid">
+				<article class="card">
+					<img class="card-img" src="images/cherry-blossom.jpg" alt="Fleur de cerisier" loading="lazy">
+					<h4>Fleur de cerisier</h4>
+					<p>Petite fleur délicate, symbole du printemps.</p>
+				</article>
+				<article class="card">
+					<img class="card-img" src="images/sunflower.jpg" alt="Tournesol" loading="lazy">
+					<h4>Tournesol</h4>
+					<p>Grande fleur lumineuse qui suit le soleil.</p>
+				</article>
+				<article class="card">
+					<img class="card-img" src="images/tulip.jpg" alt="Tulipe" loading="lazy">
+					<h4>Tulipe</h4>
+					<p>Couleurs vives et formes élégantes.</p>
+				</article>
+				<article class="card">
+					<img class="card-img" src="images/bouquet.jpg" alt="Bouquet" loading="lazy">
+					<h4>Bouquet</h4>
+					<p>Un mélange de fleurs pour toutes les occasions.</p>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>Site exemple — crée avec amour 🌿</p>
+			<p class="attribution">Photos: images dynamiques depuis <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
+		</div>
+	</footer>
+</body>
+</html>
 
